@@ -1,0 +1,36 @@
+/* style initialization */
+body,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: unset;
+}
+
+textarea {
+  padding: 0;
+}
+
+input,
+textarea {
+  border: unset;
+  outline: none;
+}
+
+input[type="number"] {
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
