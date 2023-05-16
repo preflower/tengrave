@@ -4,6 +4,7 @@ import vue from '@vitejs/plugin-vue'
 import AutoImport from 'unplugin-auto-import/vite'
 import DefineOptions from 'unplugin-vue-define-options/vite'
 import UnoCSS from 'unocss/vite'
+import VueI18nPlugin from '@intlify/unplugin-vue-i18n/vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -28,7 +29,10 @@ export default defineConfig({
     // 支持在 setup 内写 defineOptions
     // refer: https://github.com/sxzz/unplugin-vue-macros/tree/main/packages/define-options
     DefineOptions(),
-    UnoCSS()
+    UnoCSS(),
+    VueI18nPlugin({
+      include: [path.resolve(__dirname, './src/i18n/locales/**')],
+    })
   ],
   resolve: {
     alias: {
