@@ -1,0 +1,7 @@
+{
+  "common": {
+    "error": {
+      "network": "Network error, please try again"
+    }
+  }
+}
