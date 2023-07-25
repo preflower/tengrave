@@ -17,18 +17,23 @@ A Version Of Vue Tengrave Starter Template
 
 ## Start
 
-### GitHub Template
-
-[Create a repo from this template on GitHub](https://github.com/preflower/tengrave/generate).
-
 ### Clone to local
 
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx degit preflower/tengrave my-tengrave-app
+npx degit preflower/tengrave#vue my-tengrave-app
 cd my-tengrave-app
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
+```
+
+### Config eslint
+
+before this, you should create/import your eslint config
+
+```js
+// fix unplugin-auto-import eslint error
+extends: ['./.eslintrc-auto-import.json']
 ```
 
 ## License
