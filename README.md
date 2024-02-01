@@ -7,8 +7,6 @@ A Version Of Vue Tengrave Starter Template
 
 - TypeScript
 
-- [UnoCSS](https://github.com/antfu/unocss) - the instant on-demand atomic CSS engine
-
 - [Vue Router](https://router.vuejs.org/zh/introduction.html), [Vue I18n](https://vue-i18n.intlify.dev/), [Axios](https://axios-http.com/docs/intro), [Pinia](https://pinia.vuejs.org/introduction.html)
 
 - [Components auto importing](https://github.com/antfu/unplugin-auto-import)
