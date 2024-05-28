@@ -7,8 +7,6 @@ A Version Of React Tengrave Starter Template
 
 - TypeScript
 
-- [UnoCSS](https://github.com/antfu/unocss) - the instant on-demand atomic CSS engine
-
 - [React Router DOM](https://reactrouter.com/), [React I18next](https://react.i18next.com/), [Axios](https://axios-http.com/docs/intro), [Zustand](https://docs.pmnd.rs/zustand/getting-started/introduction)
 
 - [Components auto importing](https://github.com/antfu/unplugin-auto-import)
