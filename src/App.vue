@@ -1,12 +1,12 @@
 <template>
   <!-- 不设置默认key，以文件名区分(Vue默认)，确保复用最外层容器 -->
-  <router-view v-slot="{ Component }">
-    <keep-alive>
+  <RouterView v-slot="{ Component }">
+    <KeepAlive>
       <component
         :is="Component"
       />
-    </keep-alive>
-  </router-view>
+    </KeepAlive>
+  </RouterView>
 </template>
 
 <style>

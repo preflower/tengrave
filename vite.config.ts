@@ -33,7 +33,7 @@ export default defineConfig(() => {
       // refer: https://github.com/sxzz/unplugin-vue-macros/tree/main/packages/define-options
       DefineOptions(),
       VueI18nPlugin({
-        include: [path.resolve(__dirname, './src/i18n/locales/**')],
+        include: [path.resolve(__dirname, './src/i18n/locales/**')]
       }),
       isAnalyze
         ? visualizer({
